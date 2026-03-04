@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --color-light: #eeeeee;
+  --color-dark: #222831;
+  --color-gray: #b8bbc0;
+}
+
+@theme {
+  --color-color-light: var(--color-light);
+  --color-color-dark: var(--color-dark);
+  --color-color-gray: var(--color-gray);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+}
