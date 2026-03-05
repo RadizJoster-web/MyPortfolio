@@ -9,10 +9,9 @@ export default function Header() {
       transition={{ duration: 0.6 }}
       className="flex justify-center"
     >
-      <h2 className="text-4xl md:text-5xl font-bold text-color-dark mb-4">
-        Featured Works & Creations
+      <h2 className="text-4xl md:text-5xl font-bold text-color-dark">
+        My Project
       </h2>
-      <div className="w-20 h-1.5 bg-color-primary mt-4"></div>
     </motion.header>
   );
 }

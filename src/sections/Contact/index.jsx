@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="w-full min-h-screen flex items-center justify-center py-20"
+      className="w-full lg:w-screen xl:w-full flex items-center justify-center py-10"
     >
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-12">
         <Header />

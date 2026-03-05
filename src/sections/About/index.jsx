@@ -5,10 +5,13 @@ import ContactBox from "./ContactBox";
 
 export default function About() {
   return (
-    <section id="about" className="min-h-screen flex items-center">
+    <section
+      id="about"
+      className="min-h-screen w-full lg:w-screen xl:w-full flex items-center justify-between"
+    >
       <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center w-full">
         {/* KOLOM GAMBAR (Sekarang di kiri pada desktop) */}
-        <div className="w-full lg:w-1/2 flex justify-center lg:justify-start">
+        <div className="w-full lg:w-1/2 flex justify-center xl:justify-start">
           <div className="relative w-full max-w-sm md:max-w-md">
             <motion.div
               initial={{ opacity: 0, x: -50 }} // Posisi awal (tidak terlihat & agak ke bawah)

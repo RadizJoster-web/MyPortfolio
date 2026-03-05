@@ -4,7 +4,7 @@ import { PROJECTS_DATA } from "../../assets/PROJECT_DATA";
 
 export default function Project() {
   return (
-    <section id="projects" className="py-20">
+    <section id="projects" className="w-full lg:w-screen xl:w-full pt-10">
       <div className="flex flex-col gap-10">
         <Header />
 

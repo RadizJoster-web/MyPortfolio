@@ -12,7 +12,7 @@ export default function Header() {
       <h2 className="text-4xl md:text-5xl font-bold text-color-dark mb-4">
         My Skills
       </h2>
-      <p className="text-gray-700 max-w-2xl mx-auto">
+      <p className="text-justify lg:text-start text-gray-700 lg:max-w-2xl mx-auto">
         Explore my technical skills across different domains. Click on any
         category to see the specific technologies and tools I work with.
       </p>

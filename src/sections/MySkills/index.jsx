@@ -8,7 +8,7 @@ export default function MySkills() {
   const [activeCategory, setActiveCategory] = useState(SKILL_CATEGORIES[0]);
 
   return (
-    <section id="skill">
+    <section id="skill" className="w-full lg:w-screen xl:w-full pt-10">
       <div>
         {/* Header Section */}
         <Header />

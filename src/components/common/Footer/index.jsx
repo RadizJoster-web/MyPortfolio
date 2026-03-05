@@ -13,9 +13,9 @@ const navLinks = [
 export default function Footer() {
   return (
     <footer className="flex flex-col justify-center items-center gap-4">
-        <img src="/profile_picture.png" alt="Profile Picture" className="w-15" />
+      <img src="/profile_picture.png" alt="Profile Picture" className="w-15" />
 
-      <ul className="flex items-center gap-10">
+      <ul className="flex items-center gap-2 md:gap-10">
         {navLinks.map((link) => (
           <li key={link.to}>
             <Link

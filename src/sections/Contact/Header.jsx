@@ -8,7 +8,7 @@ export default function Header() {
         whileInView={{ opacity: 1, x: 0 }} // Animasi saat di-scroll ke area ini
         viewport={{ once: true }} // Animasi hanya berjalan sekali
         transition={{ duration: 0.6 }} // Durasi animasi
-        className="text-3xl md:text-4xl font-black text-color-dark uppercase tracking-tighter mb-2"
+        className="text-center lg:text-start text-3xl md:text-4xl font-black text-color-dark uppercase tracking-tighter mb-2"
       >
         Get In Touch
       </motion.h4>
@@ -18,7 +18,7 @@ export default function Header() {
         whileInView={{ opacity: 1, x: 0 }} // Animasi saat di-scroll ke area ini
         viewport={{ once: true }} // Animasi hanya berjalan sekali
         transition={{ duration: 0.6, delay: 0.1 }} // Durasi animasi
-        className="text-gray-500"
+        className="text-gray-500 text-center lg:text-start"
       >
         I'm open to collaborations and new opportunities.
       </motion.p>
