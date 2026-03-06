@@ -5,9 +5,9 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen w-full lg:w-screen xl:w-full flex items-center justify-between py-10"
+      className="min-h-screen w-full xl:w-full flex items-center justify-between py-10"
     >
-      <div className="flex flex-col-reverse lg:flex-row gap-12 items-center">
+      <div className="flex flex-col-reverse xl:flex-row gap-12 items-center">
         {/* Kolom Kiri: Konten Teks */}
         <Header />
 

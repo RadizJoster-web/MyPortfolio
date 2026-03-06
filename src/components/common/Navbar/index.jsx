@@ -57,7 +57,7 @@ export default function Navbar() {
 
       {/* Mobile Menu Overlay */}
       <div
-        className={`fixed top-20 w-full h-[90vh] bg-color-light backdrop-blur-md flex flex-col items-center justify-center gap-8 transition-transform duration-500 ease-in-out z-50 ${
+        className={`fixed left-0 top-15 w-screen h-screen bg-color-light flex flex-col items-center justify-center gap-8 transition-transform duration-500 ease-in-out z-50 ${
           isOpen ? "translate-x-0" : "translate-x-full"
         } md:hidden`}
       >
@@ -68,6 +68,7 @@ export default function Navbar() {
             to={link.to}
             smooth={true}
             duration={500}
+            offset={-100}
             onClick={toggleMenu} // Tutup menu setelah klik
             className="text-2xl font-semibold text-color-dark hover:text-color-primary cursor-pointer"
           >

@@ -9,7 +9,7 @@ import Footer from "./components/common/Footer";
 
 function App() {
   return (
-    <main className="py-20 px-6 lg:px-40">
+    <main className="py-20 px-6 lg:px-40 overflow-hidden lg:bg-red-500 xl:bg-color-light">
       <Navbar />
       <Hero />
       <About />
